@@ -46,10 +46,4 @@ function draw() {
     
      game.end();
    }
-   if(keyDown(RIGHT_ARROW)){
-     player.x = player.x+0.5
-   }
-   if(keyDown(LEFT_ARROW)){
-    player.x = player.x-0.5
-  }
 }
